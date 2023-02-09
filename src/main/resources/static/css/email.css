@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(212, 222, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+.email-msg-header{
+    text-align: center;
+}
+.email-msg-header span {
+    font-size:35px;
+    color: blue;
+    
+}
+.welcome-text{
+    text-align: center;
+}
+
+.verify-account-btn{
+    padding: 15px;
+    background-color: rgb(99, 99, 202);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.copy-right{
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    font-size: 14px;
+    margin: 15px 0px;
+}
